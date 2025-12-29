@@ -1,0 +1,290 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata Pantai Lampung - Hidden Gem Sumatra</title>
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR (Sticky) -->
+    <nav class="navbar">
+        <div class="logo">Pesona<span>Lampung</span></div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#destinasi-pemda">Pemda</a>
+            <a href="#destinasi-swasta">Swasta</a>
+            <a href="#galeri">Galeri</a>
+            <a href="#kontak" class="btn-nav">Kontak</a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Surga Tersembunyi di Ujung Sumatra</h1>
+            <p>Temukan keindahan pantai pasir putih dan laut biru kristal di Lampung.</p>
+            <a href="#destinasi-pemda" class="cta-button">Mulai Jelajahi <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </header>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="container about-section">
+        <div class="row">
+            <div class="col-img">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500" alt="Keindahan Pantai Lampung">
+            </div>
+            <div class="col-text">
+                <h4 class="sub-heading">Kenapa Lampung?</h4>
+                <h2>Provinsi Penuh Pesona</h2>
+                <p>
+                    Lampung adalah gerbang pulau Sumatra yang memukau. Bukan hanya terkenal dengan kopi dan gajah, 
+                    Lampung kini menjadi primadona wisata pantainya.  Pantai-pantai di Lampung menawarkan keindahan
+                     alam yang memukau dengan pasir putih, air laut jernih, dan panorama yang masih alami. Destinasi 
+                     ini cocok untuk wisata keluarga, snorkeling, hingga menikmati matahari terbenam dalam suasana yang tenang dan asri..
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Pantai Indah</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15</h3>
+                        <p>Pulau Wisata</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINASI PEMDA -->
+    <section id="destinasi-pemda" class="section-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2>Wisata Pantai Pemerintah Daerah</h2>
+                <p>Destinasi rakyat yang terjangkau dan memukau</p>
+            </div>
+            
+            <div class="destinations-grid">
+                <!-- Card 1 -->
+                <div class="destination-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500" alt="Pantai Duta Wisata">
+                    </div>
+                    <div class="card-content">
+                        <h3>Pantai Duta Wisata</h3>
+                        <div class="rating"><i class="fas fa-star"></i> 3.8 <span>(Murah Meriah)</span></div>
+                        <p>Lokasi strategis dekat kota, cocok untuk bersantai sore hari sambil menikmati jagung bakar dan sunset.</p>
+                        <a href="detail.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                        </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="destination-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500');"></div>
+                    <div class="card-content">
+                        <h3>Pantai Tiska</h3>
+                        <div class="rating"><i class="fas fa-star"></i> 4.0 <span>(View Pelabuhan)</span></div>
+                        <p>Pantai di area Srengsem dengan pemandangan kapal-kapal besar dan pelabuhan Panjang yang estetik.</p>
+                        <a href="tiska.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="destination-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=500');"></div>
+                    <div class="card-content">
+                        <h3>Pantai Mutun</h3>
+                        <div class="rating"><i class="fas fa-star"></i> 4.2 <span>(Keluarga)</span></div>
+                        <p>Pantai legendaris dengan ombak tenang, sangat aman untuk berenang anak-anak dan wahana waterboom.</p>
+                        <a href="mutun.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                    </div>
+                </div>
+
+                <!-- Card 4: Pantai Sari Ringgit -->
+                <div class="destination-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1544918877-460635b64b36?w=500');"></div>
+                    <div class="card-content">
+                        <h3>Pantai Pahawang</h3>
+                        <div class="rating"><i class="fas fa-star"></i> 4.3 <span>(Pasir Putih)</span></div>
+                        <p>Dekat dengan Pulau Mahitam, menawarkan pasir putih yang bersih dan air laut yang jernih untuk snorkeling.</p>
+                        <a href="pahawang.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                    </div>
+                </div>
+
+                <!-- Card 5: Pantai Sebalang -->
+                <div class="destination-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500');"></div>
+                    <div class="card-content">
+                        <h3>Pantai Marina</h3>
+                        <div class="rating"><i class="fas fa-star"></i> 4.5 <span>(Senja Hits)</span></div>
+                        <p>Tempat nongkrong paling hits untuk menikmati sunset dengan bean bag di pinggir pantai ala Bali.</p>
+                        <a href="marina.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                    </div>
+                </div>
+
+                <!-- Card 6: Pantai Klara -->
+                <div class="destination-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1506929194757-81d711398d71?w=500');"></div>
+                    <div class="card-content">
+                        <h3>Pantai Mandapa</h3>
+                        <div class="rating"><i class="fas fa-star"></i> 4.1 <span>(Air Jernih)</span></div>
+                        <p>Singkatan dari Kelapa Rapat. Airnya sangat tenang dan dangkal, sangat cocok untuk membawa anak-anak berenang.</p>
+                        <a href="mandapa.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINASI SWASTA -->
+    <section id="destinasi-swasta" class="container">
+        <div class="section-header">
+            <h2>Wisata Pantai Swasta</h2>
+            <p>Spot Instagramable dan Fasilitas Premium</p>
+        </div>
+
+        <div class="destinations-grid">
+            <!-- Card 4: Rio -->
+            <div class="destination-card">
+                <div class="badge badge-hot">Viral 🔥</div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500');"></div>
+                <div class="card-content">
+                    <h3>Rio by the Beach</h3>
+                    <div class="rating"><i class="fas fa-star"></i> 4.9 <span>(Aesthetic)</span></div>
+                    <p>Destinasi hits baru dengan konsep beach club, bean bags, dan desain bangunan yang sangat fotogenik.</p>
+                    <a href="rio.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                </div>
+            </div>
+
+            <!-- Card 5: Sari Ringgung -->
+            <div class="destination-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a8723ba527?w=500');"></div>
+                <div class="card-content">
+                    <h3>Pantai Sari Ringgung</h3>
+                    <div class="rating"><i class="fas fa-star"></i> 4.7 <span>(Pasir Timbul)</span></div>
+                    <p>Terkenal dengan fenomena Pasir Timbul di tengah laut dan Masjid Apung yang unik.</p>
+                    <a href="sari.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                </div>
+            </div>
+
+            <!-- Card 6: Klara -->
+            <div class="destination-card">
+                <div class="badge badge-rekomen">Rekomendasi ⭐</div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=500');"></div>
+                <div class="card-content">
+                    <h3>Pantai Klara</h3>
+                    <div class="rating"><i class="fas fa-star"></i> 5.0 <span>(Air Jernih)</span></div>
+                    <p>Singkatan dari "Kelapa Rapat". Airnya sangat jernih dan tenang, cocok untuk latihan berenang pemula.</p>
+                    <a href="klara.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="badge badge-hot">Viral 🔥</div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500');"></div>
+                <div class="card-content">
+                    <h3> Pantai Minang Rua</h3>
+                    <div class="rating"><i class="fas fa-star"></i> 4.9 <span>(Aesthetic)</span></div>
+                    <p>Destinasi hits baru dengan konsep beach club, bean bags, dan desain bangunan yang sangat fotogenik.</p>
+                    <a href="rua.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                </div>
+            </div>
+
+            <!-- Card 5: Sari Ringgung -->
+            <div class="destination-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a8723ba527?w=500');"></div>
+                <div class="card-content">
+                    <h3>Pantai Sebalang</h3>
+                    <div class="rating"><i class="fas fa-star"></i> 4.7 <span>(Pasir Timbul)</span></div>
+                    <p>Terkenal dengan fenomena Pasir Timbul di tengah laut dan Masjid Apung yang unik.</p>
+                    <a href="sebalang.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+                </div>
+            </div>
+
+            <!-- Card 6: Klara -->
+            <div class="destination-card">
+                <div class="badge badge-rekomen">Rekomendasi ⭐</div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=500');"></div>
+                <div class="card-content">
+                    <h3>Pantai Kiluan</h3>
+                    <div class="rating"><i class="fas fa-star"></i> 5.0 <span>(Air Jernih)</span></div>
+                    <p>Singkatan dari "Kelapa Rapat". Airnya sangat jernih dan tenang, cocok untuk latihan berenang pemula.</p>
+                    <a href="kiluan.html" class="btn-card" style="text-align: center; text-decoration: none; display: block;">Lihat Detail</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri" class="section-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeri Keindahan</h2>
+                <p>Momen terbaik pengunjung kami</p>
+            </div>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=400" alt="Galeri 1">
+                <img src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=400" alt="Galeri 2">
+                <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=400" alt="Galeri 3">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400" alt="Pantai Duta Wisata">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400" alt="Pantai Tiska">
+                <img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=400" alt="Pantai Mutun">
+                <img src="https://images.unsplash.com/photo-1544918877-460635b64b36?w=400" alt="Pantai Pahawang">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="kontak" class="cta-section">
+        <div class="cta-content">
+            <h2>Siap Liburan ke Lampung?</h2>
+            <p>Konsultasikan rencana perjalanan Anda bersama kami secara gratis.</p>
+            <button class="cta-button-large" onclick="hubungiWhatsApp()">Hubungi via WhatsApp <i class="fab fa-whatsapp"></i></button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h4>Pesona Lampung</h4>
+                <p>Platform informasi wisata terlengkap untuk mengeksplorasi keindahan "The Treasure of Sumatra".</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#destinasi-pemda">Destinasi</a></li>
+                    <li><a href="#galeri">Galeri Foto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Kontak</h4>
+                <p><i class="fas fa-envelope"></i> admin@wisatalampung.id</p>
+                <p><i class="fas fa-phone"></i> +62 822 7836 9296</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Web Wisata Lampung. Dibuat oleh Mahasiswa IIB DARMAJAYA</p>
+            <p>&copy; 2025 Web Wisata Lampung. Dibuat d oleh Mahasiswa IIB DARMAJAYA</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
